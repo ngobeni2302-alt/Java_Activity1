@@ -37,7 +37,9 @@ You need to create 4 Java classes inside the package `com.zoo`. Follow the speci
   * Assigns the values to the attributes. *Hint: Use your setter for age to ensure validation applies during initialization.*
 * **Encapsulation Requirements:**
   * Create public getters for both `name` and `age`.
-  * Create a public setter for `age`. Inside this setter, add a validation check: If the provided age is less than `0`, print an error message and force the age value to set to `0`. Otherwise, assign the provided value.
+  * Create a public setter for `age`. Inside this setter, add a validation check: If the provided 
+  * age is less than `0`, print an error message and force the age value to set to `0`. Otherwise, 
+  * assign the provided value.
 * **Methods:**
   * Create a public method `public void makeSound()` that prints: `"[Animal Name] makes a generic animal sound."`
 
