@@ -6,7 +6,6 @@ public class Lion extends Animal {
    }
    @Override
    public void makeSound() {
-       System.out.println(getName() + " roars proudly! 🦁");
+       System.out.println(getName() + " roars proudly!");
    }
-
 }
